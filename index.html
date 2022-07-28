@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,13 +16,17 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/419928b3b9.js" crossorigin="anonymous"></script>
     <style>
         body {
             font-family: 'Poppins', sans-serif;
         }
-
+        .feedback-controller {
+            height: 40px;
+            width: 40px;
+        }
         @media only screen and (max-width:576px) {
             .slider-img {
                 min-height: 50vh;
@@ -32,7 +35,6 @@
         }
     </style>
 </head>
-
 <body>
     <header>
         <section>
@@ -432,8 +434,7 @@
                                     <p class="card-text text-muted">UI/UX Designer</p>
                                 </div>
                             </div>
-                            <div class="d-none d-lg-flex justify-content-center align-items-center position-absolute top-50 start-0 translate-middle bg-danger border border-light rounded-circle text-light"
-                                style="height: 40px; width: 40px;">
+                            <div class="d-none d-lg-flex justify-content-center align-items-center position-absolute top-50 start-0 translate-middle bg-danger border border-light rounded-circle text-light feedback-controller">
                                 <i class="fa-solid fa-angle-left fs-5"></i>
                             </div>
                         </div>
@@ -465,8 +466,7 @@
                                     <p class="card-text text-muted">Graphic Designer</p>
                                 </div>
                             </div>
-                            <div class="d-none d-lg-flex justify-content-center align-items-center position-absolute top-50 start-100 translate-middle bg-danger border border-light rounded-circle text-light"
-                                style="height: 40px; width: 40px;">
+                            <div class="d-none d-lg-flex justify-content-center align-items-center position-absolute top-50 start-100 translate-middle bg-danger border border-light rounded-circle text-light feedback-controller">
                                 <i class="fa-solid fa-angle-right fs-5"></i>
                             </div>
                         </div>
@@ -491,14 +491,12 @@
                                 <button class="accordion-button fw-semibold fs-5" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true"
                                     aria-controls="flush-collapseOne">
-                                    What are the differences between flexbox and grid?
+                                    What is the difference between flexbox and grid?
                                 </button>
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse show"
                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the first item's
-                                    accordion body.</div>
+                                <div class="accordion-body">The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. But, grid was designed for two-dimensional layout - rows, and columns at the same time.</div>
                             </div>
                         </div>
                         <div class="accordion-item border border-2 my-3 shadow">
@@ -506,14 +504,12 @@
                                 <button class="accordion-button collapsed fw-semibold fs-5" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                     aria-controls="flush-collapseTwo">
-                                    What are the differences between bootstrap and tailwind?
+                                    What is the difference between bootstrap and tailwind CSS?
                                 </button>
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the second item's
-                                    accordion body. Let's imagine this being filled with some actual content.</div>
+                                <div class="accordion-body">Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness.</div>
                             </div>
                         </div>
                         <div class="accordion-item border border-2 my-3 shadow">
@@ -521,16 +517,12 @@
                                 <button class="accordion-button collapsed fw-semibold fs-5" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
                                     aria-expanded="false" aria-controls="flush-collapseThree">
-                                    What is css box-model?
+                                    What is CSS box-model?
                                 </button>
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the third item's
-                                    accordion body. Nothing more exciting happening here in terms of content, but just
-                                    filling up the space to make it look, at least at first glance, a bit more
-                                    representative of how this would look in a real-world application.</div>
+                                <div class="accordion-body">In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.</div>
                             </div>
                         </div>
                         <div class="accordion-item border border-2 my-3 shadow">
@@ -538,14 +530,12 @@
                                 <button class="accordion-button collapsed fw-semibold fs-5" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false"
                                     aria-controls="flush-collapseFour">
-                                    What are the differences between flexbox and grid?
+                                    What is semantic tag?
                                 </button>
                             </h2>
                             <div id="flush-collapseFour" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the first item's
-                                    accordion body.</div>
+                                <div class="accordion-body">A semantic element clearly describes its meaning to both the browser and the developer.<br>Examples of non-semantic elements: <code><xmp class="d-inline"><div></xmp></code> and <code><xmp class="d-inline"><span></xmp></code> - Tells nothing about its content.<br>Examples of semantic elements: <code><xmp class="d-inline"><form></xmp></code> , <code><xmp class="d-inline"><table></xmp></code> , and <code><xmp class="d-inline"><article></xmp></code> - Clearly defines its content.</div>
                             </div>
                         </div>
                     </div>
@@ -623,5 +613,4 @@
         })
     </script>
 </body>
-
 </html>
